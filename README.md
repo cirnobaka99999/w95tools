@@ -14,6 +14,6 @@ mv "MainUnit.pas.new" "MainUnit.pas"
 Для заливки на git наоборот:
 
 ```bash
-iconv -f CP1251 UTF-8 "MainUnit.pas" > "MainUnit.pas.new"
+iconv -f CP1251 -t UTF-8 "MainUnit.pas" > "MainUnit.pas.new"
 mv "MainUnit.pas.new" "MainUnit.pas"
 ```
